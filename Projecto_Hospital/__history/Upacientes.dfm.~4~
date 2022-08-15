@@ -1,0 +1,71 @@
+object pacientes: Tpacientes
+  Left = 0
+  Top = 0
+  Caption = 'Pacientes'
+  ClientHeight = 433
+  ClientWidth = 800
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -17
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  OnShow = FormShow
+  TextHeight = 23
+  object DBGrid1: TDBGrid
+    Left = 16
+    Top = 48
+    Width = 777
+    Height = 241
+    DataSource = DataSource1
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -17
+    TitleFont.Name = 'Segoe UI'
+    TitleFont.Style = []
+  end
+  object btninsertar: TButton
+    Left = 16
+    Top = 360
+    Width = 75
+    Height = 25
+    Caption = 'Insertar'
+    TabOrder = 1
+  end
+  object btnactualizar: TButton
+    Left = 224
+    Top = 360
+    Width = 89
+    Height = 25
+    Caption = 'Actualizar'
+    TabOrder = 2
+  end
+  object btneliminar: TButton
+    Left = 440
+    Top = 360
+    Width = 75
+    Height = 25
+    Caption = 'Eliminar'
+    TabOrder = 3
+  end
+  object btncerrar: TButton
+    Left = 648
+    Top = 360
+    Width = 75
+    Height = 25
+    Caption = 'Cerrar'
+    TabOrder = 4
+    OnClick = btncerrarClick
+  end
+  object query: TFDQuery
+    Connection = Datos.FDConnection1
+    Left = 264
+    Top = 152
+  end
+  object DataSource1: TDataSource
+    DataSet = query
+    Left = 424
+    Top = 176
+  end
+end

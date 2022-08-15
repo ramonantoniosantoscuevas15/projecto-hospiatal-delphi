@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/05/16 13:41:45.000.902,=C:\Users\vlado\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/16 11:37:48.000.265,=C:\Users\vlado\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/08/01 11:29:00.000.570,=C:\Users\vlado\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/08/06 14:06:24.000.381,=C:\Users\vlado\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/08/06 14:11:15.000.120,=C:\Users\vlado\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/08/06 14:29:59.000.206,C:\Users\vlado\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Uinicio.dfm</Transaction>
+    <Transaction>2022/08/06 14:29:59.000.206,C:\Users\vlado\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Uinicio.pas</Transaction>
+    <Transaction>2022/08/06 14:30:09.000.325,C:\Users\vlado\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Udatos.pas</Transaction>
+    <Transaction>2022/08/06 14:30:09.000.325,C:\Users\vlado\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Udatos.dfm</Transaction>
+    <Transaction>2022/08/06 14:30:31.000.245,C:\Users\vlado\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Projecto_Hospital.dproj</Transaction>
+    <Transaction>2022/08/06 14:31:33.000.251,=C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Unit1.pas</Transaction>
+    <Transaction>2022/08/06 14:36:07.000.794,C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Unit1.dfm=C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Umedicos.dfm</Transaction>
+    <Transaction>2022/08/06 14:36:07.000.794,C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Unit1.pas=C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Umedicos.pas</Transaction>
+    <Transaction>2022/08/06 14:56:03.000.210,=C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Unit1.pas</Transaction>
+    <Transaction>2022/08/06 15:10:50.000.492,C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Unit1.pas=C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\crud_medicos.pas</Transaction>
+    <Transaction>2022/08/06 15:10:50.000.492,C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Unit1.dfm=C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\crud_medicos.dfm</Transaction>
+    <Transaction>2022/08/08 09:07:10.000.654,=C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Unit1.pas</Transaction>
+    <Transaction>2022/08/08 09:11:46.000.226,C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Unit1.dfm=C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Upacientes.dfm</Transaction>
+    <Transaction>2022/08/08 09:11:46.000.226,C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Unit1.pas=C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Upacientes.pas</Transaction>
+    <Transaction>2022/08/08 09:31:20.000.554,=C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Unit1.pas</Transaction>
+    <Transaction>2022/08/08 09:52:46.000.490,C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Unit1.dfm=C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\crud_pacientes.dfm</Transaction>
+    <Transaction>2022/08/08 09:52:46.000.490,C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Unit1.pas=C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\crud_pacientes.pas</Transaction>
+    <Transaction>2022/08/08 11:44:58.000.120,=C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Unit1.pas</Transaction>
+    <Transaction>2022/08/08 11:47:44.000.436,C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Uconsultas.pas=C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Unit1.pas</Transaction>
+    <Transaction>2022/08/08 11:47:44.000.436,C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Uconsultas.dfm=C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Unit1.dfm</Transaction>
+    <Transaction>2022/08/08 13:41:39.000.589,=C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Unit1.pas</Transaction>
+    <Transaction>2022/08/08 13:49:27.000.060,C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Unit1.dfm=C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\crud_consultas.dfm</Transaction>
+    <Transaction>2022/08/08 13:49:27.000.060,C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\Unit1.pas=C:\Users\vlado\OneDrive\Documentos\delphi\Projecto_Hospital\crud_consultas.pas</Transaction>
+  </Transactions>
+</BorlandProject>

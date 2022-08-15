@@ -1,0 +1,81 @@
+unit Upacientes;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, FireDAC.Stan.Intf,
+  FireDAC.Stan.Option, FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS,
+  FireDAC.Phys.Intf, FireDAC.DApt.Intf, FireDAC.Stan.Async, FireDAC.DApt,
+  FireDAC.Comp.DataSet, FireDAC.Comp.Client, Vcl.Grids, Vcl.DBGrids,
+  Vcl.StdCtrls;
+
+type
+  Tpacientes = class(TForm)
+    DBGrid1: TDBGrid;
+    query: TFDQuery;
+    DataSource1: TDataSource;
+    btninsertar: TButton;
+    btnactualizar: TButton;
+    btneliminar: TButton;
+    btncerrar: TButton;
+    procedure FormShow(Sender: TObject);
+    procedure btncerrarClick(Sender: TObject);
+    procedure btninsertarClick(Sender: TObject);
+    procedure btnactualizarClick(Sender: TObject);
+  private
+    { Private declarations }
+    procedure mostrar;
+  public
+    { Public declarations }
+  end;
+
+var
+  pacientes: Tpacientes;
+
+implementation
+
+{$R *.dfm}
+
+uses Udatos, crud_pacientes;
+
+{ TForm1 }
+
+procedure Tpacientes.btnactualizarClick(Sender: TObject);
+begin
+  form_pacientes.Caption := 'Actulizar Datos';
+  form_pacientes.Hint := DBGrid1.Fields[0].Text;
+  form_pacientes.ShowModal;
+  mostrar;
+end;
+
+procedure Tpacientes.btncerrarClick(Sender: TObject);
+begin
+  close;
+end;
+
+procedure Tpacientes.btninsertarClick(Sender: TObject);
+begin
+  form_pacientes.Caption := 'Insertar Datos';
+  form_pacientes.ShowModal;
+  mostrar;
+end;
+
+procedure Tpacientes.FormShow(Sender: TObject);
+begin
+  mostrar;
+end;
+
+procedure Tpacientes.mostrar;
+begin
+  with query do
+  begin
+    active := false;
+    sql.Clear;
+    sql.Text := 'select * from pacientes';
+    active := true;
+  end;
+end;
+
+end.

@@ -1,0 +1,18 @@
+program Projecto_Hospital;
+
+uses
+  Vcl.Forms,
+  Uinicio in 'Uinicio.pas' {Hospital},
+  Udatos in 'Udatos.pas' {Datos: TDataModule},
+  Umedicos in 'Umedicos.pas' {Medicos};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(THospital, Hospital);
+  Application.CreateForm(TDatos, Datos);
+  Application.CreateForm(TMedicos, Medicos);
+  Application.Run;
+end.

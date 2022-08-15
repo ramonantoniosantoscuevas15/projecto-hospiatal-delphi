@@ -1,0 +1,37 @@
+object Medicos: TMedicos
+  Left = 0
+  Top = 0
+  Caption = 'Medicos'
+  ClientHeight = 433
+  ClientWidth = 622
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -17
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 23
+  object DBGrid1: TDBGrid
+    Left = 120
+    Top = 96
+    Width = 320
+    Height = 120
+    DataSource = DataSource1
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -17
+    TitleFont.Name = 'Segoe UI'
+    TitleFont.Style = []
+  end
+  object query: TFDQuery
+    Connection = Datos.FDConnection1
+    Left = 208
+    Top = 144
+  end
+  object DataSource1: TDataSource
+    DataSet = query
+    Left = 336
+    Top = 128
+  end
+end

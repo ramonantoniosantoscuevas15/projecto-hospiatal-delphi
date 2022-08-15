@@ -1,0 +1,128 @@
+object form_pacientes: Tform_pacientes
+  Left = 0
+  Top = 0
+  Caption = 'Pacientes'
+  ClientHeight = 351
+  ClientWidth = 492
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -17
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  OnShow = FormShow
+  TextHeight = 23
+  object Label1: TLabel
+    Left = 8
+    Top = 32
+    Width = 26
+    Height = 23
+    Caption = 'ID: '
+  end
+  object Label2: TLabel
+    Left = 280
+    Top = 32
+    Width = 72
+    Height = 23
+    Caption = 'Nombre: '
+  end
+  object Label3: TLabel
+    Left = 8
+    Top = 120
+    Width = 71
+    Height = 23
+    Caption = 'Apellido: '
+  end
+  object Label4: TLabel
+    Left = 280
+    Top = 120
+    Width = 62
+    Height = 23
+    Caption = 'Cedula: '
+  end
+  object Label5: TLabel
+    Left = 8
+    Top = 200
+    Width = 47
+    Height = 23
+    Caption = 'Edad: '
+  end
+  object Label6: TLabel
+    Left = 280
+    Top = 205
+    Width = 63
+    Height = 23
+    Caption = 'Seguro: '
+  end
+  object edtid: TEdit
+    Left = 85
+    Top = 24
+    Width = 121
+    Height = 31
+    Color = clNavy
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object edtnombre: TEdit
+    Left = 358
+    Top = 24
+    Width = 121
+    Height = 31
+    TabOrder = 1
+  end
+  object edtapellido: TEdit
+    Left = 85
+    Top = 112
+    Width = 121
+    Height = 31
+    TabOrder = 2
+  end
+  object edtcedula: TEdit
+    Left = 358
+    Top = 112
+    Width = 121
+    Height = 31
+    TabOrder = 3
+  end
+  object edtedad: TEdit
+    Left = 85
+    Top = 197
+    Width = 121
+    Height = 31
+    TabOrder = 4
+  end
+  object edtseguro: TEdit
+    Left = 358
+    Top = 202
+    Width = 121
+    Height = 31
+    TabOrder = 5
+  end
+  object btninsertar: TButton
+    Left = 8
+    Top = 320
+    Width = 75
+    Height = 25
+    Caption = 'Insertar'
+    TabOrder = 6
+    OnClick = btninsertarClick
+  end
+  object btnactualizar: TButton
+    Left = 200
+    Top = 320
+    Width = 81
+    Height = 25
+    Caption = 'Actualizar'
+    TabOrder = 7
+    OnClick = btnactualizarClick
+  end
+  object btneliminar: TButton
+    Left = 392
+    Top = 320
+    Width = 87
+    Height = 25
+    Caption = 'Elmininar'
+    TabOrder = 8
+    OnClick = btneliminarClick
+  end
+end
